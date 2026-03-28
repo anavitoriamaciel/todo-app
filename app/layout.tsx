@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import './globals.css'   // ← adiciona essa linha
 
 export const metadata: Metadata = {
   title: 'Meu App',
